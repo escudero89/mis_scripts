@@ -49,7 +49,6 @@ def showFiles(subdirectory=''):
     else:
         path = os.getcwd()
     
-    # Elijo las extensiones de archivos de dibujo que voy a utilizar, por defecto las basicas
     extensiones = [".jpg", ".png", ".bmp"]    
     directorios = []
     for root, dirs, names in os.walk(path):

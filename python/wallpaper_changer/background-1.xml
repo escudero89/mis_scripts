@@ -1,0 +1,1667 @@
+<background>
+  <starttime>
+    <year>2009</year>
+    <month>08</month>
+    <day>04</day>
+    <hour>00</hour>
+    <minute>00</minute>
+    <second>00</second>
+  </starttime>
+<!-- This animation will start at midnight. -->
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/01005_freeze_1680x1050.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/01005_freeze_1680x1050.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/01098_sydneyoperahouse_1680x1050.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/01098_sydneyoperahouse_1680x1050.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/01098_sydneyoperahouse_1680x1050.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/01153_gouganebarra_1680x1050.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/01153_gouganebarra_1680x1050.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/01153_gouganebarra_1680x1050.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/01209_snoqualmiedew_1680x1050.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/01209_snoqualmiedew_1680x1050.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/01209_snoqualmiedew_1680x1050.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/01312_portlock_1680x1050.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/01312_portlock_1680x1050.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/01312_portlock_1680x1050.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/01354_sunriseafterthestorm_1680x1050.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/01354_sunriseafterthestorm_1680x1050.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/01354_sunriseafterthestorm_1680x1050.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/022.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/022.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/022.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/025.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/025.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/025.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/030.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/030.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/030.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/035.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/035.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/035.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/037.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/037.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/037.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/038.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/038.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/038.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/084.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/084.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/084.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/098.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/098.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/098.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/1-background-734110.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/1-background-734110.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/1-background-734110.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/double rainbow.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/double rainbow.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/double rainbow.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/fairytale_1600.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/fairytale_1600.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/fairytale_1600.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Fantasy-castle-wallpaper-1600x900.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Fantasy-castle-wallpaper-1600x900.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Fantasy-castle-wallpaper-1600x900.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/firefox-nebula-wallpapers_1600x900.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/firefox-nebula-wallpapers_1600x900.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/firefox-nebula-wallpapers_1600x900.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/fondo_otono_01.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/fondo_otono_01.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/fondo_otono_01.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Graphic-Design-Light-graphic-design-light-1600x900.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Graphic-Design-Light-graphic-design-light-1600x900.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Graphic-Design-Light-graphic-design-light-1600x900.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Green-Nature-wallpaper.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Green-Nature-wallpaper.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Green-Nature-wallpaper.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/The castle of my dreams.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/The castle of my dreams.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/The castle of my dreams.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/tree-of-light-1600-900-3386.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/tree-of-light-1600-900-3386.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/tree-of-light-1600-900-3386.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/tumblr_lmx1ragEhR1qza0zbo1_1280.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/tumblr_lmx1ragEhR1qza0zbo1_1280.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/tumblr_lmx1ragEhR1qza0zbo1_1280.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Typhlosion.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Typhlosion.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Typhlosion.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/wall1.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/wall1.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/wall1.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/wallpaper-625840.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/wallpaper-625840.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/wallpaper-625840.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/wallpapersmix.com blue-and-green.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/wallpapersmix.com blue-and-green.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/wallpapersmix.com blue-and-green.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/wallpapersmix.com eiffel-tower-de-noche.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/wallpapersmix.com eiffel-tower-de-noche.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/wallpapersmix.com eiffel-tower-de-noche.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/wallpapersmix.com hoja.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/wallpapersmix.com hoja.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/wallpapersmix.com hoja.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/wallpapersmix.com nice-sunset.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/wallpapersmix.com nice-sunset.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/wallpapersmix.com nice-sunset.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Wallpaper_1080p_9_1600x900.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Wallpaper_1080p_9_1600x900.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Wallpaper_1080p_9_1600x900.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/wave_in_sunset_light_1600x900.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/wave_in_sunset_light_1600x900.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/wave_in_sunset_light_1600x900.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/windows2.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/windows2.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/windows2.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/11.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/11.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/11.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/17 (2).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/17 (2).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/17 (2).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Abstract-Cool-70099.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Abstract-Cool-70099.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Abstract-Cool-70099.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/dark-abstract-wide-wallpaper-1600x900-008.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/dark-abstract-wide-wallpaper-1600x900-008.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/dark-abstract-wide-wallpaper-1600x900-008.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/dashing_blue_wallpaper_abstract_other_wallpaper_1600_900_widescreen_2097.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/dashing_blue_wallpaper_abstract_other_wallpaper_1600_900_widescreen_2097.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/dashing_blue_wallpaper_abstract_other_wallpaper_1600_900_widescreen_2097.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (39).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (39).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (39).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/lavariver.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/lavariver.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/lavariver.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/AllYouNeedIsLove.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/AllYouNeedIsLove.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/AllYouNeedIsLove.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Ancient-Church-Hilly-Landscape-Wallpaper-1600x900.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Ancient-Church-Hilly-Landscape-Wallpaper-1600x900.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Ancient-Church-Hilly-Landscape-Wallpaper-1600x900.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Autumn Woods.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Autumn Woods.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Autumn Woods.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Avatar Ang - the last airbender.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Avatar Ang - the last airbender.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Avatar Ang - the last airbender.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/A_Spring_Storm_in_the_Valnerina_Umbria_Italy_1600x900.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/A_Spring_Storm_in_the_Valnerina_Umbria_Italy_1600x900.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/A_Spring_Storm_in_the_Valnerina_Umbria_Italy_1600x900.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/beautiful_lake_1600x900.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/beautiful_lake_1600x900.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/beautiful_lake_1600x900.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/black-windows-7-wallpaper-1600x900.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/black-windows-7-wallpaper-1600x900.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/black-windows-7-wallpaper-1600x900.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/capricorn2k6.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/capricorn2k6.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/capricorn2k6.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Carretera_montana.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Carretera_montana.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Carretera_montana.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/casa gobierno.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/casa gobierno.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/casa gobierno.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/chikusei.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/chikusei.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/chikusei.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Clouds__by_smoczyca_cienia.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Clouds__by_smoczyca_cienia.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Clouds__by_smoczyca_cienia.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Colors_Lines.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Colors_Lines.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Colors_Lines.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/light-abstract-wide-wallpaper-1600x900-003.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/light-abstract-wide-wallpaper-1600x900-003.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/light-abstract-wide-wallpaper-1600x900-003.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/light-abstract-wide-wallpaper-1600x900-004.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/light-abstract-wide-wallpaper-1600x900-004.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/light-abstract-wide-wallpaper-1600x900-004.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/light-abstract-wide-wallpaper-1600x900-007.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/light-abstract-wide-wallpaper-1600x900-007.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/light-abstract-wide-wallpaper-1600x900-007.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/lightstreaks.png</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/lightstreaks.png</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/lightstreaks.png</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Maple.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Maple.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Maple.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Maroon_Lake.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Maroon_Lake.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Maroon_Lake.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Momiji_Dream_by_Deacon_MacMillan.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Momiji_Dream_by_Deacon_MacMillan.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Momiji_Dream_by_Deacon_MacMillan.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/nature-wallpaper-1600x900-003.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/nature-wallpaper-1600x900-003.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/nature-wallpaper-1600x900-003.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/NebulasPowa.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/NebulasPowa.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/NebulasPowa.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/www.BancodeImagenesGratuitas.com -16.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/www.BancodeImagenesGratuitas.com -16.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/www.BancodeImagenesGratuitas.com -16.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/www.BancodeImagenesGratuitas.com -Bosques-29.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/www.BancodeImagenesGratuitas.com -Bosques-29.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/www.BancodeImagenesGratuitas.com -Bosques-29.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/www.BancodeImagenesGratuitas.com -Verde-1.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/www.BancodeImagenesGratuitas.com -Verde-1.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/www.BancodeImagenesGratuitas.com -Verde-1.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/www.BancodeImagenesGratuitas.com-Prados-1.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/www.BancodeImagenesGratuitas.com-Prados-1.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/www.BancodeImagenesGratuitas.com-Prados-1.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/www.BancodeImagenesGratuitas.com-Prados-10.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/www.BancodeImagenesGratuitas.com-Prados-10.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/www.BancodeImagenesGratuitas.com-Prados-10.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/www.BancodeImagenesGratuitas.com-Sicodelicas-5.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/www.BancodeImagenesGratuitas.com-Sicodelicas-5.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/www.BancodeImagenesGratuitas.com-Sicodelicas-5.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/www.FreeAmazingPictures.com-Paradise-15.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/www.FreeAmazingPictures.com-Paradise-15.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/www.FreeAmazingPictures.com-Paradise-15.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/zoo clouds073.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/zoo clouds073.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/zoo clouds073.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/[WallpapersMania]_vol157-041.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/[WallpapersMania]_vol157-041.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/[WallpapersMania]_vol157-041.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/[WallpapersMania]_vol158-020.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/[WallpapersMania]_vol158-020.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/[WallpapersMania]_vol158-020.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/[WallpapersMania]_vol158-034.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/[WallpapersMania]_vol158-034.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/[WallpapersMania]_vol158-034.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/_Space_Art_Wallpaper_1920x1080_020-771718.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/_Space_Art_Wallpaper_1920x1080_020-771718.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/_Space_Art_Wallpaper_1920x1080_020-771718.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/2v9okjn.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/2v9okjn.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/2v9okjn.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/3 (2).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/3 (2).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/3 (2).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/3.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/3.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/3.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/31.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/31.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/31.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/32.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/32.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/32.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/33.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/33.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/33.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/36.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/36.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/36.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/37.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/37.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/37.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/38.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/38.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/38.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/39.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/39.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/39.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/3d-abstract-blue-1600-900-4961.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/3d-abstract-blue-1600-900-4961.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/3d-abstract-blue-1600-900-4961.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/400000003.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/400000003.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/400000003.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/4000000039.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/4000000039.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/4000000039.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/40_size_1600x900_40.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/40_size_1600x900_40.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/40_size_1600x900_40.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/50_colorful_hd_wallpprs06.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/50_colorful_hd_wallpprs06.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/50_colorful_hd_wallpprs06.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/50_colorful_hd_wallpprs09.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/50_colorful_hd_wallpprs09.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/50_colorful_hd_wallpprs09.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/50_colorful_hd_wallpprs10.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/50_colorful_hd_wallpprs10.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/50_colorful_hd_wallpprs10.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/50_colorful_hd_wallpprs18.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/50_colorful_hd_wallpprs18.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/50_colorful_hd_wallpprs18.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/50_colorful_hd_wallpprs42.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/50_colorful_hd_wallpprs42.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/50_colorful_hd_wallpprs42.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/50_colorful_hd_wallpprs50.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/50_colorful_hd_wallpprs50.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/50_colorful_hd_wallpprs50.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/51.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/51.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/51.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/52.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/52.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/52.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/5520457320_8e1e9e2014_o.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/5520457320_8e1e9e2014_o.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/5520457320_8e1e9e2014_o.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/17 - Res Leaf.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/17 - Res Leaf.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/17 - Res Leaf.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/174.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/174.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/174.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/175.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/175.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/175.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/18.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/18.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/18.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/19.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/19.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/19.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/1936rr.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/1936rr.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/1936rr.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/1B2.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/1B2.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/1B2.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/200.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/200.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/200.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/200000001.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/200000001.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/200000001.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/21.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/21.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/21.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/22.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/22.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/22.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/23.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/23.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/23.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/239.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/239.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/239.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/24.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/24.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/24.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/245.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/245.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/245.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/25.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/25.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/25.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/26.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/26.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/26.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/2600000025.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/2600000025.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/2600000025.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/28.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/28.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/28.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/29 (2).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/29 (2).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/29 (2).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/56.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/56.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/56.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/57.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/57.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/57.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/577748200.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/577748200.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/577748200.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/61.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/61.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/61.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/63.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/63.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/63.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/74.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/74.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/74.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/82.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/82.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/82.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/83.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/83.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/83.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/84.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/84.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/84.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/A04.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/A04.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/A04.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/A10.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/A10.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/A10.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/A11.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/A11.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/A11.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/A17.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/A17.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/A17.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/A19.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/A19.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/A19.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/A24.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/A24.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/A24.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (100).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (100).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (100).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (103).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (103).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (103).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (104).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (104).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (104).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (110).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (110).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (110).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (115).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (115).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (115).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (118).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (118).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (118).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (13).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (13).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (13).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (133).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (133).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (133).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (136).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (136).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (136).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (138).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (138).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (138).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (143).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (143).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (143).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (147).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (147).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (147).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (23).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (23).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (23).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (29).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (29).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (29).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/1185860705460.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/1185860705460.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/1185860705460.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/1283849956888.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/1283849956888.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/1283849956888.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/137.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/137.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/137.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/14.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/14.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/14.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/140.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/140.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/140.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/143.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/143.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/143.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/145.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/145.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/145.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/15.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/15.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/15.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/152kcub.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/152kcub.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/152kcub.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/16.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/16.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/16.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/1600x900_Dizorb_SalleDeMusiqueDeChambre_HD_Wallpaper.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/1600x900_Dizorb_SalleDeMusiqueDeChambre_HD_Wallpaper.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/1600x900_Dizorb_SalleDeMusiqueDeChambre_HD_Wallpaper.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/1600x900_TravelWith_Zixzine.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/1600x900_TravelWith_Zixzine.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/1600x900_TravelWith_Zixzine.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/161.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/161.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/161.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/165.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/165.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/165.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/168.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/168.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/168.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (43).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (43).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (43).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (48).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (48).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (48).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (57).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (57).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (57).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (70).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (70).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (70).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (71).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (71).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (71).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (74).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (74).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (74).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (82).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (82).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (82).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (93).jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (93).jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/HDwallpaperTX (93).jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/In the Grass.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/In the Grass.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/In the Grass.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Island_Palms_Madagascar_1600x900.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Island_Palms_Madagascar_1600x900.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Island_Palms_Madagascar_1600x900.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Langelinie_All├®_by_SirPecanGum.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Langelinie_All├®_by_SirPecanGum.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Langelinie_All├®_by_SirPecanGum.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/lastlight.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/lastlight.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/lastlight.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Last_Exit_by_Notmiown.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Last_Exit_by_Notmiown.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Last_Exit_by_Notmiown.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/ormsg8.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/ormsg8.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/ormsg8.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Picture - Fire Element HD Wallpaper 1.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Picture - Fire Element HD Wallpaper 1.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Picture - Fire Element HD Wallpaper 1.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Puesta_sol_tropical.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Puesta_sol_tropical.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Puesta_sol_tropical.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Red Cap Mushroom.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Red Cap Mushroom.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Red Cap Mushroom.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/red_light.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/red_light.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/red_light.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Reflection Lake in Morning Light, Washington.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Reflection Lake in Morning Light, Washington.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Reflection Lake in Morning Light, Washington.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/sacred-heart-church-wallpaper.1600x900.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/sacred-heart-church-wallpaper.1600x900.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/sacred-heart-church-wallpaper.1600x900.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/Sea Mist_Softwares.jpg</to>
+  </transition>
+  <static>
+    <duration>1795.0</duration>
+    <file>/media/sda3/Stuff/Random Wallpapers/Sea Mist_Softwares.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/media/sda3/Stuff/Random Wallpapers/Sea Mist_Softwares.jpg</from>
+    <to>/media/sda3/Stuff/Random Wallpapers/01005_freeze_1680x1050.jpg</to>
+  </transition>
+</background>
