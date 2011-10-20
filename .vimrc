@@ -48,6 +48,9 @@
 
 	" Activamos plugins
 	filetype plugin on
+	
+	" Activamos las indentaciones segun el tipo de archivo
+	filetype indent on
 
 	" Ponemos el historial en 1000, el default es 20
 	set history=1000
@@ -175,5 +178,19 @@
 
 	" Me configura el Doxygen (si lo tengo instalado)
 	let g:DoxygenToolkit_authorName="Cristian Escudero <escudero89@gmail.com>"
-
+	
 "	}
+
+" Python {
+	
+	" Vemos que usamos para hacer los tabs (Para python son 4 espacios)
+	au BufRead,BufNewFile *.py, *.pyw set shiftwidth=4
+	au BufRead,BufNewFile *.py, *.pyw set expandtab
+	
+	" Tener tabs al principio de una linea en Python es malo
+	au BufRead,BufNewFile *.py, *.pyw match BadWhitespace /^\t+/
+
+	" Hace que los whitespace sean marcados como malos
+	au BufRead,BufNewFile *.py, *.pyw match BadWithespace /\s\+$/
+
+" }
