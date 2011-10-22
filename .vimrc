@@ -19,8 +19,8 @@
 	set background=dark
 
 	" Esquema de colores slate
-	colorscheme wombat
-	
+	colorscheme las
+
 	" Activamos los colores de sintaxis	
 	syntax on
 
@@ -62,7 +62,7 @@
 
 " Busqueda {
 	
-	" Va realizando la busqueda a medida que se ingresa el texto
+	" Va realizando la busqueda a medidad que se ingresa el texto
 	set incsearch
 	
 	" Busquedas con highlights
@@ -98,6 +98,8 @@
 	" Indentacion automatica, manteniendo el mismo nivel que la 
 	" identacion anterior
 	set autoindent
+	set smartindent
+	set cindent
 	
 	" Cambio el size de los tabs a 4 espacios
 	set tabstop=4
@@ -127,6 +129,9 @@
 	let mapleader=","
 	let g:mapleader=","
 
+	" Con <leader>F5 recargo el .vimrc
+	nmap <leader><F5> :source ~/.vimrc<CR>
+
 	" Una forma de guardar el archivo, con <leader>w
 	nmap <leader>w :w!<cr>
 
@@ -141,9 +146,6 @@
 	" En modo insertar, F2 me sale del insertar, guarda, y vuelve a entrar
 	imap <F2> <ESC>:w!<CR>i
 
-	" Switchea entre header/source con F5 (con extension .hpp y .cpp)
-	map <F5> :e %:p:s,.hpp$,.X123X,:s,.cpp$,.hpp,:s,.X123X$,.cpp<CR>
-
 	" Me crea un comentario del tipo Doxygen con F6
 	map <F6> :Dox<CR>
 
@@ -153,6 +155,9 @@
 	map <leader>p :cp<CR>
 
 	""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+	" Actualiza todos los archivos del servidor con F5
+	map <F5> :windo e!<CR>
 
 	" Me hace el build con F7, y con shift F7
 	map <F7> :make<CR>
