@@ -62,7 +62,7 @@
 
 " Busqueda {
 	
-	" Va realizando la busqueda a medidad que se ingresa el texto
+	" Va realizando la busqueda a medida que se ingresa el texto
 	set incsearch
 	
 	" Busquedas con highlights
