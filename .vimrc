@@ -19,8 +19,8 @@
 	set background=dark
 
 	" Esquema de colores slate
-	colorscheme las
-
+	colorscheme wombat
+	
 	" Activamos los colores de sintaxis	
 	syntax on
 
