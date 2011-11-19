@@ -103,6 +103,7 @@
 
 	" Cambio el size de los tabs a 4 espacios
 	set tabstop=4
+	set shiftwidth=4
 
 	" Hago busqueda insensitive por default
 	set ignorecase
