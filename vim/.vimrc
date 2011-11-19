@@ -97,9 +97,10 @@
 	" Indentacion automatica, manteniendo el mismo nivel que la 
 	" identacion anterior
 	set autoindent
-	set smartindent
 	set cindent
-	
+
+    set noexpandtab " Leave Tab keys as real tabs (ASCII 9 character).
+
 	" Cambio el size de los tabs a 4 espacios
 	set tabstop=4
 
@@ -138,7 +139,7 @@
 	nmap <F2> :w!<CR>
 	
 	" Una forma de ir a editar rapido el vimrc
-	nmap <leader>e :e! ~/.vimrc<CR>
+	nmap <leader>e :tabnew ~/.vimrc<CR>
 
 	""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
