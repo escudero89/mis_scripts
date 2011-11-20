@@ -184,7 +184,10 @@
 
 	" Me configura el Doxygen (si lo tengo instalado)
 	let g:DoxygenToolkit_authorName="Cristian Escudero <escudero89@gmail.com>"
-	
+
+	" En teoria, me arregla la sintaxis de jquery y javascript 
+	au BufRead,BufNewFile *.js set ft=javascript syntax=javascript
+	au BufRead,BufNewFile jquery.*.js set ft=javascript syntax=jquery
 "	}
 
 " Python {
