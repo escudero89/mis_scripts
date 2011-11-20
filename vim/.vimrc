@@ -43,7 +43,7 @@
 	set wildmenu
 
 	" Ignora esta lista de extensiones
-	set wildignore=*.dll,*.o,*.obj,*.bak,*.exe,*pyc,*.jpg,*.gif,*.png
+	set wildignore=*.dll,*.o,*.obj,*.bak,*.exe,*pyc,*.jpg,*.gif,*.png	
 
 	" Activamos plugins
 	filetype plugin on
