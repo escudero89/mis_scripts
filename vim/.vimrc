@@ -43,8 +43,8 @@
 	set wildmenu
 
 	" Ignora esta lista de extensiones
-	set wildignore=*.dll,*.o,*.obj,*.bak,*.exe,*pyc,*.jpg,*.gif,*.png	
-
+	set wildignore=*.dll,*.o,*.obj,*.bak,*.exe,*pyc,*.jpg,*.gif,*.png
+	
 	" Activamos plugins
 	filetype plugin on
 	
@@ -157,8 +157,8 @@
 
 	""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-	" Actualiza todos los archivos del servidor con F5
-	map <F5> :windo e!<CR>
+	" Actualiza el archivo editandose
+	map <F5> :edit<CR>
 
 	" Me hace el build con F7, y con shift F7
 	map <F7> :make<CR>
@@ -186,8 +186,8 @@
 	let g:DoxygenToolkit_authorName="Cristian Escudero <escudero89@gmail.com>"
 
 	" En teoria, me arregla la sintaxis de jquery y javascript 
-	au BufRead,BufNewFile *.js set ft=javascript syntax=javascript
-	au BufRead,BufNewFile jquery.*.js set ft=javascript syntax=jquery
+	au BufRead,BufNewFile *.js set syntax=javascript
+	au BufRead,BufNewFile jquery*.js set syntax=jquery
 "	}
 
 " Python {

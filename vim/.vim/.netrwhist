@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/home/cristian'
 let g:netrw_dirhist_2='/media/sda2/Users'
 let g:netrw_dirhist_3='/var/log/installer'
+let g:netrw_dirhist_4='/home/cristian/Software/eclipse/readme'
