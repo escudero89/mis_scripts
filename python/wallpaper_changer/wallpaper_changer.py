@@ -1,5 +1,7 @@
 import os, fnmatch
 
+import sys
+
 from xml.dom.minidom import Document
 
 from xml.etree.ElementTree import Element, SubElement, tostring
@@ -65,7 +67,6 @@ def showFiles(subdirectory=''):
     return directorios
 	
 if __name__ == "__main__":
-    import sys
     
     files = open("background-1.xml","w")
         
