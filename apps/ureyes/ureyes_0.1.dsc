@@ -7,9 +7,9 @@ Maintainer: Cristian Gabriel Escudero <escudero89@gmail.com>
 Standards-Version: 3.8.3
 Build-Depends: cdbs (>= 0.4.43), debhelper (>= 6), python, python-support (>= 0.6.4), python-distutils-extra (>= 2.10)
 Checksums-Sha1: 
- 8a87ea97e56405636cd80172652c233697984879 161529 ureyes_0.1.tar.gz
+ f93d3ded86e1a5f7664e6e606195b3bfd8959479 161452 ureyes_0.1.tar.gz
 Checksums-Sha256: 
- 63b625add1600829cc9fe51f617b87b24e9f0f6fdcbcfe845fea33e26a4d897d 161529 ureyes_0.1.tar.gz
+ 2dfc9968866412c2da8a403617d37f2d7bb03bd70b5233dc89ce28334add2f47 161452 ureyes_0.1.tar.gz
 Files: 
- 3320902f969262c9e3bd3bb53405b46e 161529 ureyes_0.1.tar.gz
+ 7049318e1ad9230451840661dd6eb148 161452 ureyes_0.1.tar.gz
 Python-Version: current

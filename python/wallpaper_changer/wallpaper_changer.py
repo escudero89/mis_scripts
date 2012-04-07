@@ -1,4 +1,4 @@
-import os, fnmatch
+import os, fnmatch, random
 
 import sys
 
@@ -11,6 +11,8 @@ def createXml(subdirectory='', dura_f='1795.0', dura_t='5.0'):
 	atrdentros = ["2009","08","04","00","00","00"]
 	
 	directorios = showFiles(subdirectory)
+	
+	random.shuffle(directorios) # comment this line to avoid shuffle of files
 	
 	string = "<background>\n" # Voy creando basicamente con string
 	
@@ -52,7 +54,7 @@ def showFiles(subdirectory=''):
         path = os.getcwd()
     
     # Elijo las extensiones de archivos de dibujo que voy a utilizar, por defecto las basicas
-    extensiones = [".jpg", ".png", ".bmp"]    
+    extensiones = [".jpg", ".png", ".bmp", "jpeg"]    
     directorios = []
     for root, dirs, names in os.walk(path):
         for name in names:

@@ -1,0 +1,11 @@
+Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
+Name: ureyes
+Maintainer: Cristian Gabriel Escudero <escudero89@gmail.com>
+Source: UNKNOWN
+
+Files: *
+Copyright: (C) 2012 Cristian Gabriel Escudero escudero89@gmail.com
+Copyright: (C) 2012 Cristian Gabriel Escudero escudero89@gmail.com</property>
+License: GPL-3
+ The full text of the GPL is distributed in
+ /usr/share/common-licenses/GPL-3 on Debian systems.
