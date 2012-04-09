@@ -1,8 +1,0 @@
-[Desktop Entry]
-_Name=Ureyes
-_Comment=Ureyes application
-Categories=GNOME;Utility;
-Exec=ureyes
-Icon=/usr/share/ureyes/media/ureyes.svg
-Terminal=false
-Type=Application
