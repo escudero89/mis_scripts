@@ -54,6 +54,39 @@ function despertarse {
 
 } 
 
+function acostarse {
+    
+    echo -e -n "# Hora de despertarse [HH MM]: ";    
+
+    read hora minutos;    
+    flag=false;
+    
+    while [[ $hora < 0 ]]; do
+        echo -n "# Por favor, ingrese hora de despertarse [HH MM]: ";
+        read hora minutos;
+        flag=true;       
+    done;
+    
+    if [[ flag ]]; then
+        echo -e "# Hora modificada:" ${c[3]}$(date --date "$hora$minutos" +"%H:%M")${c[5]}"."
+    fi
+    
+    mins=105;
+    step=90;
+
+    for i in $(seq 1 6); do
+        minus=$(((-1) * ($mins + $step * (6 - $i))));
+        echos[$i]=$(date --date "$hora$minutos 24hour $minus minutes" +"%H:%M");        
+    done
+
+    echosjoin=$(printf ${c[2]}" %s "${c[5]} "${echos[@]}")
+
+    echo "#" 
+    echo "# Prueba acostarte en los siguientes horarios:"
+    echo -e "#" $echosjoin
+    
+}
+
 separador="#------------------------------------------------------------------";
 
 echo $separador;
@@ -67,8 +100,7 @@ echo -n "# Ingrese una opcion ([I]rse a dormir, [d]espertarse): "
 read opcion
 
 if [[ $opcion == "d" ]]; then
-    echo "# Not implemented yet."
-    
+    acostarse;    
 else
     despertarse;
 fi
