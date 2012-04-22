@@ -67,9 +67,7 @@ function acostarse {
         flag=true;       
     done;
     
-    if [[ flag ]]; then
-        echo -e "# Hora modificada:" ${c[3]}$(date --date "$hora$minutos" +"%H:%M")${c[5]}"."
-    fi
+    echo -e "# Hora modificada:" ${c[3]}$(date --date "$hora$minutos" +"%H:%M")${c[5]}"."
     
     mins=105;
     step=90;
