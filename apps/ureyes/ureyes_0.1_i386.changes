@@ -1,28 +1,28 @@
 Format: 1.8
-Date: Fri, 06 Apr 2012 18:13:36 -0300
+Date: Tue, 08 May 2012 12:33:27 -0300
 Source: ureyes
 Binary: ureyes
 Architecture: source all
 Version: 0.1
-Distribution: oneiric
+Distribution: precise
 Urgency: low
 Maintainer: Cristian Gabriel Escudero <escudero89@gmail.com>
 Changed-By: Cristian Escudero <cristian@camelot>
 Description: 
  ureyes     - App for eye care
 Changes: 
- ureyes (0.1) oneiric; urgency=low
+ ureyes (0.1) precise; urgency=low
  .
    * Initial release.
 Checksums-Sha1: 
- b5a5206691067c0642944368a468b8f4253abe7e 563 ureyes_0.1.dsc
- f93d3ded86e1a5f7664e6e606195b3bfd8959479 161452 ureyes_0.1.tar.gz
- 8504ac0945d3cbf981e9140c9b3874ddd36bf744 150752 ureyes_0.1_all.deb
+ 9bb534d92cbb07e0f4b1bc0b8600b032dcd04f52 590 ureyes_0.1.dsc
+ f9d32743804a442ea468c24b50dcc809a4f66980 160483 ureyes_0.1.tar.gz
+ 2dc46bd24d6536d5118db275046282e9d20a2baa 150964 ureyes_0.1_all.deb
 Checksums-Sha256: 
- 21cba4f3dd4c0a002e1aff15d6b90b2544a21ca657f6e77bbd8f99d43421f8e1 563 ureyes_0.1.dsc
- 2dfc9968866412c2da8a403617d37f2d7bb03bd70b5233dc89ce28334add2f47 161452 ureyes_0.1.tar.gz
- 6de854eec80e90012d7ecf8389cf01080472a091b1cacb7556d961f5e7b490ef 150752 ureyes_0.1_all.deb
+ 68124740df884a3f926a524f16a667555afd876de66cbbbe8e1c8396c94fa4a3 590 ureyes_0.1.dsc
+ 158143ff4d58354e02c854f6ecf3d4add19a4712ee3adde59eea8491f38256bf 160483 ureyes_0.1.tar.gz
+ f7f157108bc29ec4ea89a624aa1ff49f2f6328a7badb37f49c2ff249b985e9c8 150964 ureyes_0.1_all.deb
 Files: 
- 0f7711058c18ddee9d73f110a86705ca 563 python extra ureyes_0.1.dsc
- 7049318e1ad9230451840661dd6eb148 161452 python extra ureyes_0.1.tar.gz
- ec7ce5009c068ac3c3d6af097479a8d8 150752 python extra ureyes_0.1_all.deb
+ 4e9a63d87f9dd0c5929465b0c14c30a9 590 python extra ureyes_0.1.dsc
+ 6bc1b49f5f1a3cdf6be82df03e72da1c 160483 python extra ureyes_0.1.tar.gz
+ 002a22a95836ed280b37aae46ec0418b 150964 python extra ureyes_0.1_all.deb

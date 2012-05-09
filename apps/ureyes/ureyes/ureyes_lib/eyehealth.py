@@ -30,6 +30,8 @@ import os
 import time
 import random
 
+from ureyes_lib.helpers import get_media_file
+
 class eyehealth:
     wich_tip = 0
     wich_call = ""
@@ -45,16 +47,19 @@ class eyehealth:
             
     def get_tip(self):
         minutes = ( self.wich_tip + 1) * self.short_break # in minutes
-        print minutes    
+ 
         if (minutes == self.long_break): 
             self.run_notification("pseudo_break_time")
             self.run_notification("break_time")           
             self.wich_tip = -1 # Restart counter    
         
+        if (minutes % 20 == 0): # every 20 minutes
+            self.run_notification("202020_rule")
+        
         elif (minutes % self.short_break == 0): # every 10 minutes
             while True:
                 call_to = random.choice(["shake_eyes", "move_up_down", 
-                "move_left_right", "blink", "202020_rule", "close_eyes"])
+                "move_left_right", "blink", "close_eyes"])
                 if ( call_to != self.wich_call ):
                     break;
             self.run_notification(call_to)                
@@ -68,7 +73,8 @@ class eyehealth:
 
         health_tips = {
             "202020_rule" : {
-                "title" : "20-20-20 Rule: Look for objects far away!"
+                "title" : "20-20-20 Rule: Look for objects far away!",
+                "secs" : 20
             }, 
             "shake_eyes" : {
                 "title" : "Shake Shake Shake! Move your eyes like clocks!"
@@ -95,8 +101,6 @@ class eyehealth:
             }            
         }
         
-        path_media = os.getcwd() + "/data/media/"         
-
         if not pynotify.init("icon-summary-body"):
             sys.exit(1)
         
@@ -106,8 +110,8 @@ class eyehealth:
             secs = self.short_break_length
         
         if (tip not in ["break_time", "pseudo_break_time"]):
-            secs_random = round(1.3 - random.random() * 0.6, 2) # 70 ~ 130 %
-            secs = int(secs + secs * secs_random) # A number +- 30% of seconds
+            secs_random = round(1.2 - random.random() * 0.7, 2) # 80 ~ 120 %
+            secs = int(secs * secs_random) # A number +- 20% of seconds
         
         temp_counter = ["Duration: ", " seconds."]
         temp_counter_temp = temp_counter[0] + str(secs) + temp_counter[1]     
@@ -115,18 +119,18 @@ class eyehealth:
         n = pynotify.Notification(
             health_tips[tip]["title"],
             temp_counter_temp,
-            path_media + "ureyes.svg")
+            get_media_file("ureyes.svg"))
         
         n.set_timeout(secs * 100)
         n.show()       
         
         old_secs = secs + 1
         
-        for i in range(old_secs):            
+        for i in range(old_secs - 1):
             n.update(
                 health_tips[tip]["title"],
                 temp_counter_temp,
-                path_media + "ureyes.svg")
+                get_media_file("ureyes.svg"))
                 
             n.show()
             secs -= 1
@@ -136,12 +140,13 @@ class eyehealth:
         if (tip != "pseudo_break_time"):   
             n.update("Well Done!", 
                 "Go back to work ;)",
-                path_media + "check.svg")
+                get_media_file("check.svg"))
             n.set_timeout(300) # only 3 seconds
                 
-            n.show()
+            n.show()             
         
-        os.system("/usr/bin/canberra-gtk-play --file=" + path_media + "sounds/linnod.ogg")                   
+        # We strip the "file:"
+        os.system("/usr/bin/canberra-gtk-play --file=" + get_media_file("sounds/linnod.ogg")[5:])
             
         return False
 

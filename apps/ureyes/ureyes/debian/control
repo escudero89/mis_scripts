@@ -3,8 +3,7 @@ Section: python
 Priority: extra
 Build-Depends: cdbs (>= 0.4.43),
  debhelper (>= 6),
- python,
- python-support (>= 0.6.4),
+ python (>= 2.6.6-3~),
  python-distutils-extra (>= 2.10)
 Maintainer: Cristian Gabriel Escudero <escudero89@gmail.com>
 Standards-Version: 3.8.3
