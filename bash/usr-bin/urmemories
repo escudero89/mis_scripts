@@ -1,0 +1,48 @@
+#!/bin/bash
+# <URMEMORIES: An app for remember things.>
+#
+# Copyright (C) 2012 Cristian Gabriel Escudero escudero89@gmail.com
+# This program is free software: you can redistribute it and/or modify it 
+# under the terms of the GNU General Public License version 3, as published 
+# by the Free Software Foundation.
+# 
+# This program is distributed in the hope that it will be useful, but 
+# WITHOUT ANY WARRANTY; without even the implied warranties of 
+# MERCHANTABILITY, SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR 
+# PURPOSE.  See the GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License along 
+# with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+c[0]="\033[1;32m"; # verde
+c[1]="\e[1;31m"; # rojo
+c[2]="\e[1;34m"; # celeste
+c[3]="\e[1;33m"; # amarillo
+c[4]="\e[1;30m"; # gris
+c[5]="\033[0m";
+
+separador="#------------------------------------------------------------------";
+
+echo $separador;
+
+echo -e "# ${c[3]}URMEMORIES, ready for everything!${c[5]}"
+echo -e "# ${c[4]}creado por Cristian Escudero (escudero89@gmail.com).${c[5]}"
+echo -e "# ${c[4]}Este archivo se encuentra bajo licencia GPLv3.${c[5]}";
+
+cat <<End-of-message
+ -------------------------------------
+ 1) Etiquetas de calidad de películas.
+ -------------------------------------
+End-of-message
+
+echo -e -n "# ${c[0]}Ingrese una opción: "${c[5]}
+read opcion
+
+if [[ $opcion == 1 ]]; then
+    cat /usr/local/bin/urmemories-etiquetas.txt | less
+fi
+
+echo "#";
+echo "# Gracias por usarme! "
+echo $separador;
+

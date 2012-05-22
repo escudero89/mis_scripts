@@ -1,0 +1,87 @@
+CAM:
+Son películas capturadas con una filmadora y pasadas a formato digital. Generalmente alguien las graba en los cines y las pasa al PC, ocupan poco, pero siempre se ven muy mal, ya que la oscuridad de la sala y el ángulo de la pantalla hace perder mucha calidad.
+
+TELESYNC (TS):
+Un telesync tiene la misma calidad de imagen que el cam, excepto que utiliza una fuente de audio externa (generalmente un jack de audio en las butacas para la gente que no oye bien). Una conexión directa del audio no asegura una gran calidad de sonido, porque hay mucho ruido externo que puede interferir. Muchas veces se graba un telesync en un cine vacío o desde la sala de proyección con una cámara profesional, dando una mayor calidad de imagen. La calidad aumenta drásticamente, pero sigue siendo mala.
+
+TELECINE (TC):
+Una maquina de telecine copia la película digitalmente desde el proyector. El sonido y la imagen deberían ser muy buenos, pero debido al equipamiento y los costos, los telecines son muy poco comunes. Generalmente la película tendrá su razón de proporción correcta, porque existen los telecines de 4:3. TC no debe ser confundido con Time Code, que es un contador visible en la pantalla durante la película.
+
+SCREENER (SCR):
+Una cinta pre VHS, enviada a las tiendas de alquiler, y a otros sitios para usos promociónales. Un screener se proporciona en una cinta VHS, y suele estar a 4:3 (pantalla completa) de razón de proporción. El punto malo es un “aviso” (un mensaje que pasa por debajo de la pantalla, con el copyright y el numero de teléfono anti-copias). También, si la cinta tiene cualquier número de serie, o cualquier otra marca que puede llevar a la fuente de la cinta, habrán de ser eliminadas, generalmente con una marca negra en esa sección. Esto solo suele durar unos segundos, pero desafortunadamente en algunas copias esto aparecerá durante toda la película, y puede que sea bastante grande. Dependiendo del equipamiento utilizado, la calidad del screener puede ser desde excelente si se hace desde una cinta MAESTRA, hasta muy mala si se hace desde un VHS muy viejo y una cinta en muy mal estado. La mayoría de los screeners se pasan a VCD, pero unos pocos intentos de SVCD también se han visto, algunos mejores que otros.
+
+R5:
+Debido a la gran masificación de la piratería de películas en Rusia se buscó una solución para ponerle fin emitiento copias legales de películas con calidad TELECINE, las más difundidas en ese país. La gran diferencia con un TELECINE normal es que estas releases R5 están creadas con equipos profesionales, lo que les da una muy bena calidad en cuanto a imagen aunque generalmente pobre en audio, pero aún por debajo de las versiones DVD-Screener o DVDRip. Hace mas menos unos 6 meses el mayor estudio de cines esta realizando lanzamientos de dvd antes en rusia. esto se ha hecho para detener la pirateria de DVDS que habia usando telecines pirateados , lo cual era bastante comun por esos lados , basicamente los R5 son lanzados por los mismos estudios de cine para detener un poco la pirateria. Basicamente los R5 la calidad es bastante buena es parecida a un DVDScreener, se dejo este nombre de R5 pues proviene la de la clasificacion zonal.
+
+DVD-SCREENER (DVDscr):
+Son Películas extraídas de un DVD de promoción (que se le da a los Críticos o a Jurados en los premios), estos a diferencia del DVDRip salen mucho antes, pero suelen tener “leyendas” en la parte inferior de la pantalla, “contadores” (reloj en la parte superior), y hasta en algunos casos puede contener partes Blanco y Negro.
+
+DVDRip:
+Es una copia comprimida de un DVD. Tienen muy buena calidad de video y de sonido. Pueden contener audio mp3, ogg, o AC3. Y la definición del video es muy buena en relación a calidad-tamaño del archivo. Gracias a los codecs hoy utilizados y sus avanzados algoritmos se lograron muy buena calidad en estos rippeos.
+
+DVD-R:
+Un DVD+-R es simplemente un DVD, es copia generalmente fiel de un original. En ciertos casos pueden omitir menus, o cambiar subtítulos por los de otro idioma. Pero siempre la calidad va a tender a ser la mejor posible.
+
+VHSRip:
+Transferida desde un VHS final, generalmente videos que no se editaron en DVD y que son difíciles de encontrar en la TV.
+
+TVRip:
+Episodios de TV, programas, series, y hasta alguna que otra película. La calidad de esto si bien es bastante buena la lograda por nuestros rippers, nunca se iguala a la obtenida por un dvd-rip. Generalmente se hace en formatos que luego puedan ser pasados fácilmente a SVCD o VCD.
+
+HDTV:
+Television de alta definicion, propia de un TvRip. La resolucion del video es de proporcion de 16:9, lo que permite mostrar mas detalle que la television normal.
+
+WORKPRINT (WP)
+Un workprint es una copia de la película que aún no ha sido terminada. Pueden faltar escenas, música, y la calidad puede ir desde excelente a muy mala. Algunos WPs son muy diferentes del producto final y otros pueden contener escenas extras. Los WPs pueden ser buenas adiciones a la colección y tienen una buena calidad final.
+
+DivX Re-Enc:
+Un Divx re-enc es una película que se ha tomado desde una fuente VCD, y recodificada a una archivo Divx pequeño. Se suelen encontrar en los programas P2P y se etiquetan de una forma tal que Pelicula.Nombre.Gurpo(1de2) etc. Los grupos más comunes son SMR y TMD. No merecen la pena ser descargadas a no ser que no estés seguro de la película y solo quieras una copia de 200mb. Generalmente es evitada.
+
+Watermarks – Marca de agua:
+Un montón de películas vienen de Asían Silvers/PDVD y son marcadas por el responsable. Generalmente con las iniciales o un pequeño logo, normalmente en una de las esquinas. Las marcas mas famosas son las “Z” “A” y el “Globe”.
+
+Asían Silvers / PDVD:
+Son películas sacadas por los bootleggers(copias de muy mala calidad) del este, y son compradas por algunos grupos para sacarlas como propias. Los Silvers son muy baratos y fáciles de conseguir en muchos países, y es fácil sacarla, por lo que hay tanta scene por el momento, principalmente de pequeños grupos que no duran más que unas pocas releases. Los PDVDs son lo mismo pero en DVD. Tienen subtítulos removibles, y la calidad suele ser mejor que los silvers. Estos son ripeados como un DVD normal, pero sacados como VCD.
+
+SVCD:
+SVCD es un formato basado en mpeg2 (igual que el DVD) que permite bitrates variables hasta 2500kbits a una resolución de 480×480(NTSC) y hasta 768×512 (PAL) que es después descomprimida a 4:3 cuando se reproduce. Debido al víbrate variable, la longitud que puedes meter en un CD-R no es fija, pero generalmente caben entre 35 y 60 minutos. Para conseguir una mejor codificación en SVCD se codifica utilizando víbrate variable, es importante utilizar varias pasadas. Esto lleva mas tiempo, pero los resultados son muchísimo mejores.
+
+VCD:
+VCD en un formato basado en mpeg1, con un víbrate constante de 1150kbit a una resolución de 352×240(NTSC) o 1150kbit a 352×288 (PAL). Los VCDs se utilizan generalmente para transferir cosas de menor calidad (CAM/TS/TC/Screener(VHS)/TVRip) para conseguir tamaños de archivo menores, y meterlos en el menor numero de discos.
+
+CVCD:
+El formato VCD, para ajustarse al estándar, usa tasas de bits de 1150k para vídeo, y 224k para audio, sea cual sea el contenido del vídeo y del audio. El CVCD no sigue esta norma y utiliza tasas de bits variables para el vídeo. Esto permite aprovechar mejor el espacio, tal como hace el SVCD, ahorrando espacio en las zonas del vídeo más sencillas o menos prioritarias (escenas con poco movimiento, los créditos, etc) en favor de otras que necesitan mayor calidad (por ejemplo, escenas con mucho movimiento). Se evita en lo posible sobrepasar los 1150 kbits/s para mantener la compatibilidad, aunque esta limitación no afecta a muchos reproductores de DVD, por lo que no es problemático si se supera.
+La resolución es igual al VCD: 352×240 a 29 para NTSC. El audio es almacenado a 48 Khz para que sea compatible con programas de autoría DVD (esto es sólo en los CVCD de **********.cl)
+
+[[ CLASIFICACIONES DE LA SCENE O ESCENA ]]
+
+PROPER
+Una película PROPER, es un Rip que soluciona el problema que tenia la Nukeada . Estos rips son sacados por otro grupo de Rippers (ripeadores).
+
+LIMITED
+Una película limited significa que se ha visto en menos de 250 cines, y por ellos son sacadas como limitadas.
+
+INTERNAL
+Una reléase internal se hace por diferentes razones. Los grupos de Classic DVD los hacen mucho, para asegurarse de que no hay dupes (ver abajo). También los ripeos de mala calidad se hacen internos, para no bajar la reputación del grupo, o debido a la cantidad de ripeos existentes.
+Una release INTERNAL esta disponible como normal en los grupos de los sitios afiliados pero no pueden ser intercambiadas sin la petición de los operadores del sitio.
+
+STV
+Straight To Video (Directas A Video). Películas que nunca se emitieron en cine, y por lo tanto, no son admitidas por muchos grupos.
+
+ASPECT RATIO TAGS
+Estos son *WS* para WideScreen (Pantalla Ancha tipo cine) y *FS* para FullScreen (Pantalla Completa tipo televisión).
+
+REPACK
+Al igual que el PROPER, también soluciona el problema que tenia la Nukeada, pero a diferencia del otro, este esta hecho por el mismo grupo que la Nukeada.
+
+NUKED
+Se le dice a las películas que suelen tener falla o algún problema. Puede ser problema de sonido, imagen o mal Cropeada (cortada la imagen) o bien con la imagen distorsionada.
+
+[[ RAZONES POR QUE SE NUKEA… ]]
+Una lista de lo que generalmente se hace cuando esta nukeado un relase (generalmente DVDRip)
+BAD A/R = Proporción de aspecto errónea, la gente sale muy ancha o muy estrecha
+BAD IVTC = Telecine Inverso erróneo. El proceso de los framerates fue incorrecto.
+INTERLACED = Líneas negras en el movimiento debido a que el orden de campo es incorrecto.
+DUPE = El Dupe es muy simple, si algo existe ya, entonces no hay razón por la que exista otra copia.
+CODECS
+Son controladores necesarios para ver una película, tales como el DIVX – XVID – AC3 – MP3 – OGG – MPG
