@@ -25,8 +25,8 @@ def main(sigma_x, sigma_y, sigma_xy):
     if (sigma_xy == 0):
         alfa = math.pi
     else:
-        alfa = math.asin(sigma_xy/radio) / 2
-        alfa = -alfa / math.pi * 180
+        alfa = math.acos((sigma_x - sigma_y) / (2 * radio)) / 2
+        alfa = -alfa / math.pi * 180    
     
     # Variables para plotear
     
@@ -68,7 +68,9 @@ def main(sigma_x, sigma_y, sigma_xy):
 
     arc_len = radio
     ax1.add_artist(Arc((C["x"], C["y"]), 
-        arc_len, arc_len, theta1=alfa*2, theta2=0,
+        arc_len, arc_len, 
+        theta1=alfa*2,
+        theta2=0,
         color="purple",
         label="2 alfa = " + str(alfa)))
         
@@ -76,11 +78,15 @@ def main(sigma_x, sigma_y, sigma_xy):
     plt.annotate('A', xy=(A["x"]+.5, A["y"]+.5), size='large')
     plt.annotate('B', xy=(B["x"]+.5, B["y"]+.5), size='large')
     plt.annotate('C', xy=(C["x"]+.5, C["y"]+.5), size='large')        
-
+    
+    plt.annotate(str(round(alfa*2, 2)), 
+        xy=(C["x"]+arc_len/2, C["y"]-arc_len/2), 
+        color="purple", 
+        size='large')
+    
     # Ploteo
     
     ax1.grid(True)
-    ax1.legend()
     ax1.axis('equal')
     ax1.axis((p0[0], p1[0], p0[1], p1[1]))
 
