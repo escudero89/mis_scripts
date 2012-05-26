@@ -17,10 +17,10 @@
 # Modo de uso:
 # Desde consola llamar: python Mohr "a" "b" "c" "filename" "simbolos"
 # Donde a = sigma_x, b = sigma_y, c = sigma_xy = sigma_yx
+# Siendo estas las componentes del tensor de tensiones.
 # "filename" nombre del archivo ("" -> no guarda el archivo)
 # "simbolos" son los dibujos de A B C y los grados (por si salieron feos,
 # y quieres agregarlo manualmente, dejar vacio para que estren)
-# Siendo estas las componentes del tensor de tensiones.
 
 import math, sys
 import numpy as np
