@@ -15,8 +15,11 @@
 # with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # Modo de uso:
-# Desde consola llamar: python Mohr "a" "b" "c"
+# Desde consola llamar: python Mohr "a" "b" "c" "filename" "simbolos"
 # Donde a = sigma_x, b = sigma_y, c = sigma_xy = sigma_yx
+# "filename" nombre del archivo ("" -> no guarda el archivo)
+# "simbolos" son los dibujos de A B C y los grados (por si salieron feos,
+# y quieres agregarlo manualmente, dejar vacio para que estren)
 # Siendo estas las componentes del tensor de tensiones.
 
 import math, sys
@@ -26,7 +29,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Arc, Circle
 import matplotlib.lines as lines
 
-def main(sigma_x, sigma_y, sigma_xy):
+def main(sigma_x, sigma_y, sigma_xy, filename="", symbols="yes"):
     
     # Variables iniciales
     
@@ -71,7 +74,7 @@ def main(sigma_x, sigma_y, sigma_xy):
     ax1 = fig.add_subplot(111)
 
     # Agrego figuras
-       
+    
     ax1.plot(A["x"], A["y"], 'o', label="A")
     ax1.plot(B["x"], B["y"], 'o', label="B")
     ax1.plot(C["x"], C["y"], 'o', label="C")   
@@ -93,28 +96,44 @@ def main(sigma_x, sigma_y, sigma_xy):
         color="purple",
         label="2 alfa = " + str(alfa)))
         
+    escale = .1*radio
 
-    plt.annotate('A', xy=(A["x"]+.5, A["y"]+.5), size='large')
-    plt.annotate('B', xy=(B["x"]+.5, B["y"]+.5), size='large')
-    plt.annotate('C', xy=(C["x"]+.5, C["y"]+.5), size='large')        
+    if (symbols == "yes"):
     
-    plt.annotate(str(round(alfa*2, 2)), 
-        xy=(C["x"]+arc_len/2, C["y"]-arc_len/2), 
-        color="purple", 
-        size='large')
-    
+        plt.annotate('A', xy=(A["x"] + escale, A["y"] + escale), size='large')
+        plt.annotate('B', xy=(B["x"] + escale, B["y"] + escale), size='large')
+        plt.annotate('C', xy=(C["x"] + escale, C["y"] + escale), size='large')        
+                
+        plt.annotate(str(round(alfa*2, 2)), 
+            xy=(C["x"]+arc_len/2, C["y"]-arc_len/2), 
+            color="purple", 
+            size='large')
+        
     # Ploteo
     
     ax1.grid(True)
     ax1.axis('equal')
     ax1.axis((p0[0], p1[0], p0[1], p1[1]))
-
-    plt.show()
+    
+    if (filename != ""):
+        print "File saved as: " + filename + ".png"
+        plt.savefig(filename)
+        
+    plt.show()        
     
 if __name__ == "__main__":
 
     sigma_x = int(sys.argv[1])
     sigma_y = int(sys.argv[2])
     sigma_xy = int(sys.argv[3])
-
-    sys.exit(main(sigma_x, sigma_y, sigma_xy))
+    
+    try:
+        filename = sys.argv[4]
+        try: 
+            symbols = sys.argv[5]     
+        except:
+            symbols = "yes"
+    except:
+        filename = ""
+    finally:
+        sys.exit(main(sigma_x, sigma_y, sigma_xy, filename, symbols))
