@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# <MOHR: A tool for draw Mohr's Circles.>
+# <MOHR: A tool for drawing Mohr's Circles.>
 #
 # Copyright (C) 2012 Cristian Gabriel Escudero escudero89@gmail.com
 # This program is free software: you can redistribute it and/or modify it 
