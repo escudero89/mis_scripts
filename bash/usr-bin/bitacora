@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# Based in crypten - a script to encrypt files using openssl from GEN2LY
+
+directorio="/media/sda3/Dropbox/Personal/"
+
+function encriptar {
+    FNAME=$1
+    openssl des3 -salt -in "/tmp/$FNAME" -out "$directorio$FNAME.des3"
+}
+
+function desencriptar {
+    FNAME=$1
+    openssl des3 -d -salt -in "$directorio$FNAME" -out "/tmp/${FNAME%.[^.]*}"
+}
+
+file="bitacora"
+filesave="/tmp/"$file
+
+if [[ !(-s "$file.des3") ]]; then
+    echo "" > $filesave
+
+    echo "Creando nueva bitacora..."    
+fi
+
+desencriptar $file".des3"
+cat $filesave
+
+echo -n "# Entrada: "
+read -e line
+
+echo $(date +"["%H:%M:%S"|"%D"]") $line >> $filesave
+
+encriptar $file
+rm $filesave
