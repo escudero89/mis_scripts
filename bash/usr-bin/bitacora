@@ -2,7 +2,7 @@
 
 # Based in crypten - a script to encrypt files using openssl from GEN2LY
 
-directorio="/media/sda3/Dropbox/Personal/"
+directorio=$2
 
 function encriptar {
     FNAME=$1
@@ -14,22 +14,29 @@ function desencriptar {
     openssl des3 -d -salt -in "$directorio$FNAME" -out "/tmp/${FNAME%.[^.]*}"
 }
 
-file="bitacora"
-filesave="/tmp/"$file
+function bitacora {
 
-if [[ !(-s "$file.des3") ]]; then
-    echo "" > $filesave
+    file=$1
+    filesave="/tmp/"$file
 
-    echo "Creando nueva bitacora..."    
-fi
+    if [[ !(-s "$directorio$file.des3") ]]; then
+        echo "" > $filesave
 
-desencriptar $file".des3"
-cat $filesave
+        echo "Creando nueva bitacora..."
+    else
+        desencriptar $file".des3"
+    fi
+    
+    cat $filesave
 
-echo -n "# Entrada: "
-read -e line
+    echo ""
+    echo -n "# Entrada: "
+    read -e line
 
-echo $(date +"["%H:%M:%S"|"%D"]") $line >> $filesave
+    echo $(date +"["%H:%M:%S"|"%D"]") $line >> $filesave
 
-encriptar $file
-rm $filesave
+    encriptar $file
+    rm $filesave
+}
+
+bitacora $1
