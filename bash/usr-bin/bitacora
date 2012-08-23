@@ -33,7 +33,7 @@ function bitacora {
     echo -n "# Entrada: "
     read -e line
 
-    echo $(date +"["%H:%M:%S"|"%D"]") $line >> $filesave
+    echo $(date +"["%H:%M:%S"|"%d/%m/%y"]") $line >> $filesave
 
     encriptar $file
     rm $filesave

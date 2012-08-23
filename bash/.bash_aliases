@@ -3,9 +3,11 @@
 ###############################################################################
 
 alias home='cd ~';
+alias cristian='cd /media/sda3/';
 
 alias actualizaf='sudo apt-get update; sudo apt-get -fy upgrade';
 alias actualiza='sudo apt-get update; sudo apt-get -f upgrade';
+alias actualizar='sudo rm /var/lib/apt/lists/lock; actualiza'
 
 alias quitar_espacios='rename "y/ /_/" *';
 
@@ -13,11 +15,11 @@ alias ultimo_reboot='last -x | grep reboot'
 alias ultimo_shutdown='last -x | grep shutdown'
 
 alias bash_aliases='gedit ~/Repositorios/mis_scripts/bash/.bash_aliases';
-alias actualizar_wallpapers='python ~/Repositorios/mis_scripts/python/wallpaper_changer/wallpaper_changer.py "/media/sda3/Stuff/Random Wallpapers" "180.0" "0.0"; sudo mv background-1.xml /usr/share/backgrounds/contest/precise.xml';
+alias actualizar_wallpapers='python ~/Repositorios/mis_scripts/python/wallpaper_changer/wallpaper_changer.py "/media/Cristian/Stuff/Random Wallpapers" "180.0" "0.0"; sudo mv background-1.xml /usr/share/backgrounds/contest/precise.xml';
 
 alias ..='cd ..';
-alias ....='.. && ..';
-alias ......='.... && ..';
+alias ...='.. && ..';
+alias ....='... && ..';
 
 # Find duplicates files
 alias duplicados='find -not -empty -type f -printf "%s\n" | sort -rn | uniq -d | xargs -I{} -n1 find -type f -size {}c -print0 | xargs -0 md5sum | sort | uniq -w32 --all-repeated=separate';
@@ -44,10 +46,19 @@ export LESS_TERMCAP_us=$'\E[01;32m'
 # Define a quick calculator function
 calc () { echo "$*" | bc -l; }
 
-say () { mplayer "http://translate.google.com/translate_tts?q=$(echo $@ | sed 's/[ ]/\+/g')" &>/dev/null; }
+say () { mplayer "http://translate.google.com/translate_tts?tl=en&q=$(echo $@ | sed 's/[ ]/\+/g')" &>/dev/null; }
 
+###############################################################################
+# GLADOS VOICE
 # Needs Tom’s LADSPA Plugins (apt-get install tap-plugins), try to simulate Glados
-glados () { mplayer -speed 1.2 -af ladspa=/usr/lib/ladspa/tap_pitch.so:tap_pitch:1.5:0:0:-4 "http://translate.google.com/translate_tts?q=$(echo $@ | sed 's/[ ]/\+/g')" &>/dev/null; }
+
+MYURL="http://translate.google.com/translate_tts?tl=en&q=";
+MYLANG="&langpair=auto|";
+
+glados () { mplayer -speed 1.2 -af ladspa=/usr/lib/ladspa/tap_pitch.so:tap_pitch:1.5:0:0:-4 $(echo $MYURL$@ | sed 's/[ ]/\+/g') &>/dev/null; }
+
+gladoses() { glados $@$MYLANG"es"; }
+gladosfr() { glados $@$MYLANG"fr"; }
 
 rand () { awk "BEGIN { srand(); print int(rand()*$@) }"; }
 
@@ -94,7 +105,7 @@ if [ "$fun" = yes ]; then
     echo -e "Welcome ${myname}, to another ${LCYAN}Aperture Science Terminal${NC}."
     echo -e "The current date is $(date +%d/%m/%y', at '%H:%M:%S)."  
     
-    PS1="${RESET}${debian_chroot:+($debian_chroot)}${WHITE}\`${SELECT}\`$namePS1 ${NORMAL}[$(date +%H:%M)]${WHITE}:\w\$${NORMAL} "
+    PS1="\n${RESET}${debian_chroot:+($debian_chroot)}${WHITE}\`${SELECT}\`$namePS1 ${NORMAL}[ ${BLUE}\d${NORMAL} | ${LBLUE}\A${NORMAL} ]${WHITE} :\w${NORMAL}\n ${WHITE}\$${NORMAL} "
 fi
 
 
