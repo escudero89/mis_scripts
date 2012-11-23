@@ -3,7 +3,7 @@
 ###############################################################################
 
 alias home='cd ~';
-alias cristian='cd /media/sda3/';
+alias cristian='cd /media/Cristian/';
 
 alias actualizaf='sudo apt-get update; sudo apt-get -fy upgrade';
 alias actualiza='sudo apt-get update; sudo apt-get -f upgrade';
@@ -15,7 +15,7 @@ alias ultimo_reboot='last -x | grep reboot'
 alias ultimo_shutdown='last -x | grep shutdown'
 
 alias bash_aliases='gedit ~/Repositorios/mis_scripts/bash/.bash_aliases';
-alias actualizar_wallpapers='python ~/Repositorios/mis_scripts/python/wallpaper_changer/wallpaper_changer.py "/media/Cristian/Stuff/Random Wallpapers" "180.0" "0.0"; sudo mv background-1.xml /usr/share/backgrounds/contest/precise.xml';
+alias actualizar_wallpapers='python ~/Repositorios/mis_scripts/python/wallpaper_changer/wallpaper_changer.py "/media/Cristian/Stuff/Wallpapers" "180.0" "0.0"; sudo mv background-1.xml /usr/share/backgrounds/contest/precise.xml';
 
 alias ..='cd ..';
 alias ...='.. && ..';
@@ -29,7 +29,7 @@ FROWNY="${RED}:(${NORMAL}"
 SELECT="if [ \$? = 0 ]; then echo \"${SMILEY}\"; else echo \"${FROWNY}\"; fi"
 
 # Expand the history size
-HISTFILESIZE=10000 
+HISTFILESIZE=10000
 HISTSIZE=100
 
 ## Color for manpages by oyvindio
@@ -47,6 +47,8 @@ export LESS_TERMCAP_us=$'\E[01;32m'
 calc () { echo "$*" | bc -l; }
 
 say () { mplayer "http://translate.google.com/translate_tts?tl=en&q=$(echo $@ | sed 's/[ ]/\+/g')" &>/dev/null; }
+
+push () { git add . ; git add . -u; git status; git commit -m "$*"; git push; }
 
 ###############################################################################
 # GLADOS VOICE
