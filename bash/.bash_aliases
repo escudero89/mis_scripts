@@ -116,8 +116,8 @@ function multiple_desks {
 	read x y;
 
 	if [ $x -gt 0 ] && [ $y -gt 0 ]; then
-		gconftool-2 --type=int --set /apps/compiz-1/general/screen0/options/vsize $x;
-		gconftool-2 --type=int --set /apps/compiz-1/general/screen0/options/hsize $y;
+		gconftool-2 --type=int --set /apps/compiz-1/general/screen0/options/hsize $x;
+		gconftool-2 --type=int --set /apps/compiz-1/general/screen0/options/vsize $y;
 	else
 		echo -e "${RED}Numero incorrecto de escritorios:${NC} $x x $y.";
 	fi
