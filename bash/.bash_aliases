@@ -7,7 +7,7 @@ alias cristian='cd /media/Cristian/';
 
 alias actualizaf='sudo apt-get update; sudo apt-get -fy upgrade';
 alias actualiza='sudo apt-get update; sudo apt-get -f upgrade';
-alias actualizar='sudo rm /var/lib/apt/lists/lock; actualiza'
+alias actualizar='sudo rm /var/lib/apt/lists/lock; actualiza';
 
 alias quitar_espacios='rename "y/ /_/" *';
 
@@ -44,11 +44,11 @@ export LESS_TERMCAP_us=$'\E[01;32m'
 # Functions
 
 # Define a quick calculator function
-calc () { echo "$*" | bc -l; }
+function calc () { echo "$*" | bc -l; }
 
-say () { mplayer "http://translate.google.com/translate_tts?tl=en&q=$(echo $@ | sed 's/[ ]/\+/g')" &>/dev/null; }
+function say () { mplayer "http://translate.google.com/translate_tts?tl=en&q=$(echo $@ | sed 's/[ ]/\+/g')" &>/dev/null; }
 
-push () { git add . ; git add . -u; git status; git commit -m "$*"; git push; }
+function push () { git add . ; git add . -u; git status; git commit -m "$*"; git push; }
 
 ###############################################################################
 # GLADOS VOICE
@@ -57,12 +57,12 @@ push () { git add . ; git add . -u; git status; git commit -m "$*"; git push; }
 MYURL="http://translate.google.com/translate_tts?tl=en&q=";
 MYLANG="&langpair=auto|";
 
-glados () { mplayer -speed 1.2 -af ladspa=/usr/lib/ladspa/tap_pitch.so:tap_pitch:1.5:0:0:-4 $(echo $MYURL$@ | sed 's/[ ]/\+/g') &>/dev/null; }
+function glados () { mplayer -speed 1.2 -af ladspa=/usr/lib/ladspa/tap_pitch.so:tap_pitch:1.5:0:0:-4 $(echo $MYURL$@ | sed 's/[ ]/\+/g') &>/dev/null; }
 
-gladoses() { glados $@$MYLANG"es"; }
-gladosfr() { glados $@$MYLANG"fr"; }
+function gladoses() { glados $@$MYLANG"es"; }
+function gladosfr() { glados $@$MYLANG"fr"; }
 
-rand () { awk "BEGIN { srand(); print int(rand()*$@) }"; }
+function rand () { awk "BEGIN { srand(); print int(rand()*$@) }"; }
 
 ###############################################################################
 # My stuff, just for fun
@@ -95,10 +95,10 @@ NC='\e[0m'              # No Color
 # Used in PS1
 RESET="\[\017\]"
 NORMAL="\[\033[0m\]"
-RED="\[\033[31;1m\]"
-YELLOW="\[\033[33;1m\]"
-WHITE="\[\033[37;1m\]"
-SELECT="if [ \$? = 0 ]; then echo \"${WHITE}\"; else echo \"${RED}\"; fi"
+P_RED="\[\033[31;1m\]"
+P_YELLOW="\[\033[33;1m\]"
+P_WHITE="\[\033[37;1m\]"
+SELECT="if [ \$? = 0 ]; then echo \"${P_WHITE}\"; else echo \"${P_RED}\"; fi"
 
 # Sample Command using color: echo -e "${CYAN}This is BASH
 #${RED}${BASH_VERSION%.*}${CYAN} - DISPLAY on ${RED}$DISPLAY${NC}\n"
@@ -107,7 +107,20 @@ if [ "$fun" = yes ]; then
     echo -e "Welcome ${myname}, to another ${LCYAN}Aperture Science Terminal${NC}."
     echo -e "The current date is $(date +%d/%m/%y', at '%H:%M:%S)."  
     
-    PS1="\n${RESET}${debian_chroot:+($debian_chroot)}${WHITE}\`${SELECT}\`$namePS1 ${NORMAL}[ ${BLUE}\d${NORMAL} | ${LBLUE}\A${NORMAL} ]${WHITE} :\w${NORMAL}\n ${WHITE}\$${NORMAL} "
+    PS1="\n${RESET}${debian_chroot:+($debian_chroot)}${P_WHITE}\`${SELECT}\`$namePS1 ${NORMAL}[ ${BLUE}\d${NORMAL} | ${LBLUE}\A${NORMAL} ]${P_WHITE} :\w${NORMAL}\n ${P_WHITE}\$${NORMAL} "
 fi
+
+# Para multiples escritorios
+function multiple_desks {
+	echo -e -n "${WHITE}Cantidad de escritorios ${NC}[horizontal vertical]: ";
+	read x y;
+
+	if [ $x -gt 0 ] && [ $y -gt 0 ]; then
+		gconftool-2 --type=int --set /apps/compiz-1/general/screen0/options/vsize $x;
+		gconftool-2 --type=int --set /apps/compiz-1/general/screen0/options/hsize $y;
+	else
+		echo -e "${RED}Numero incorrecto de escritorios:${NC} $x x $y.";
+	fi
+}
 
 
