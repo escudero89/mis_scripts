@@ -29,6 +29,9 @@ echo -e "# ${c[3]}URSIGN, get me a sign!${c[5]}"
 echo -e "# ${c[4]}creado por Cristian Escudero (escudero89@gmail.com).${c[5]}"
 echo -e "# ${c[4]}Este archivo se encuentra bajo licencia GPLv3.${c[5]}";
 echo "#";
+echo -e "# ${c[4]}Ene [01], Feb [02], Mar [03], Abr [04], May [05], Jun [06]${c[5]}";
+echo -e "# ${c[4]}Jul [07], Ago [08], Sep [09], Oct [10], Nov [11], Dic [12]${c[5]}";
+echo "#";
 echo -e -n "# ${c[2]}Ingrese una fecha [dia mes]: "${c[5]}
 read getdia getmes
 
