@@ -7,7 +7,7 @@ alias cristian='cd /media/Cristian/';
 
 alias actualizaf='sudo apt-get update; sudo apt-get -fy upgrade';
 alias actualiza='sudo apt-get update; sudo apt-get -f upgrade';
-alias actualizar='sudo rm /var/lib/apt/lists/lock; actualiza';
+alias actualizar='sudo sudo rm /var/lib/apt/lists/* -vf; rm /var/lib/apt/lists/lock; actualiza';
 
 alias quitar_espacios='rename "y/ /_/" *';
 
@@ -15,11 +15,13 @@ alias ultimo_reboot='last -x | grep reboot'
 alias ultimo_shutdown='last -x | grep shutdown'
 
 alias bash_aliases='gedit ~/Repositorios/mis_scripts/bash/.bash_aliases';
-alias actualizar_wallpapers='python ~/Repositorios/mis_scripts/python/wallpaper_changer/wallpaper_changer.py "/media/Cristian/Stuff/Wallpapers" "180.0" "0.0"; sudo mv background-1.xml /usr/share/backgrounds/contest/precise.xml';
+alias actualizar_wallpapers='python ~/Repositorios/mis_scripts/python/wallpaper_changer/wallpaper_changer.py "/media/Cristian/Copy/Stuff/Wallpapers" "180.0" "0.0"; sudo mv background-1.xml /usr/share/backgrounds/contest/precise.xml';
 
 alias ..='cd ..';
 alias ...='.. && ..';
 alias ....='... && ..';
+
+alias ll='ls -l';
 
 # Find duplicates files
 alias duplicados='find -not -empty -type f -printf "%s\n" | sort -rn | uniq -d | xargs -I{} -n1 find -type f -size {}c -print0 | xargs -0 md5sum | sort | uniq -w32 --all-repeated=separate';
