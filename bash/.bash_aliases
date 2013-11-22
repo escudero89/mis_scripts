@@ -23,6 +23,9 @@ alias ....='... && ..';
 
 alias ll='ls -l';
 
+# Count number of files, links and directories
+alias listar='for t in files links directories; do echo `find . -maxdepth 1 -type ${t:0:1} | wc -l` $t; done 2> /dev/null';
+
 # Find duplicates files
 alias duplicados='find -not -empty -type f -printf "%s\n" | sort -rn | uniq -d | xargs -I{} -n1 find -type f -size {}c -print0 | xargs -0 md5sum | sort | uniq -w32 --all-repeated=separate';
 
