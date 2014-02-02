@@ -23,11 +23,16 @@ alias ....='... && ..';
 
 alias ll='ls -l';
 
+alias j='jobs -l'
+
 # Count number of files, links and directories
 alias listar='for t in files links directories; do echo `find . -maxdepth 1 -type ${t:0:1} | wc -l` $t; done 2> /dev/null';
 
 # Find duplicates files
 alias duplicados='find -not -empty -type f -printf "%s\n" | sort -rn | uniq -d | xargs -I{} -n1 find -type f -size {}c -print0 | xargs -0 md5sum | sort | uniq -w32 --all-repeated=separate';
+
+# Linux Mint
+alias cinnamon-restart='cinnamon –replace -d :0.0 > /dev/null 2>&1 &';
 
 SMILEY="${WHITE}:)${NORMAL}"
 FROWNY="${RED}:(${NORMAL}"
@@ -68,6 +73,28 @@ function gladoses() { glados $@$MYLANG"es"; }
 function gladosfr() { glados $@$MYLANG"fr"; }
 
 function rand () { awk "BEGIN { srand(); print int(rand()*$@) }"; }
+
+# ganked these from people
+#not an alias, but I thought this simpler than the cd control
+#If you pass no arguments, it just goes up one directory.
+#If you pass a numeric argument it will go up that number of directories.
+#If you pass a string argument, it will look for a parent directory with that name and go up to it.
+
+up() {
+    dir=""
+    if [ -z "$1" ]; then
+        dir=..
+    elif [[ $1 =~ ^[0-9]+$ ]]; then
+        x=0
+        while [ $x -lt ${1:-1} ]; do
+            dir=${dir}../
+            x=$(($x+1))
+        done
+    else
+        dir=${PWD%/$1/*}/$1
+    fi
+    cd "$dir";
+}
 
 ###############################################################################
 # My stuff, just for fun
@@ -127,5 +154,3 @@ function multiple_desks {
 		echo -e "${RED}Numero incorrecto de escritorios:${NC} $x x $y.";
 	fi
 }
-
-
