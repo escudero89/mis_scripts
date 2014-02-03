@@ -25,6 +25,8 @@ alias ll='ls -l';
 
 alias j='jobs -l'
 
+alias legado='cd ~/Dropbox/My\ Campaigns\ D\&D/El\ Legado/El\ Legado\ -\ shared/'
+
 # Count number of files, links and directories
 alias listar='for t in files links directories; do echo `find . -maxdepth 1 -type ${t:0:1} | wc -l` $t; done 2> /dev/null';
 

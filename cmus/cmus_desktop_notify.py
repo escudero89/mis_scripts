@@ -110,8 +110,12 @@ def status_data(item):
 def display_song():
    """Display the song data using notify-send."""
 
+   # Si la cancion no tiene informacion, mostramos la otra notificacion
+   if status_data("status") == "playing" or status_data("title") == "":
+       subprocess.call('bash ~/.cmus/cmus-notify.sh 1', shell=True)
+       
    # We only display a notification if something is playing.
-   if status_data("status") == "playing":
+   elif status_data("status") == "playing":
 
        # Check to see if title data exists before trying to display it.
        # Display "Unknown" otherwise.
@@ -164,15 +168,15 @@ def display_song():
                    #nothing
                    notify_pic
 
+       # subprocess.call(('notify-send ' + str(track_change_duration)), shell=True)
        # Display current track notification only if 3 seconds have
        # elapsed since last track was chosen.
-       if track_change_duration > 3:
+       if track_change_duration > 0:
            # Execute notify-send with our default song data.
-           subprocess.call('notify-send -i ' + notify_pic + ' -u low -t 500 "' + \
+           subprocess.call('notify-send -i ' + notify_pic + ' -u low -t 700 "' + \
                            notify_summary + '" "by ' + \
                            notify_body + ' "', shell=True)
-                           
-     
+                                
 
 def main():
    try:
