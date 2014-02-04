@@ -111,7 +111,7 @@ def display_song():
    """Display the song data using notify-send."""
 
    # Si la cancion no tiene informacion, mostramos la otra notificacion
-   if status_data("status") == "playing" or status_data("title") == "":
+   if status_data("status") != "playing" or status_data("title") == "":
        subprocess.call('bash ~/.cmus/cmus-notify.sh 1', shell=True)
        
    # We only display a notification if something is playing.
