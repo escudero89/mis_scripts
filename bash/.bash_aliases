@@ -2,6 +2,8 @@
 # My alias, just for fun
 ###############################################################################
 
+alias tg='cd ~/Repositorios/tg/; ./telegram -k tg.pub; cd -'
+
 alias home='cd ~';
 alias cristian='cd /media/Cristian/';
 
@@ -59,6 +61,7 @@ export LESS_TERMCAP_us=$'\E[01;32m'
 function calc () { echo "$*" | bc -l; }
 
 function say () { mplayer "http://translate.google.com/translate_tts?tl=en&q=$(echo $@ | sed 's/[ ]/\+/g')" &>/dev/null; }
+function sayja () { mplayer "http://translate.google.com/translate_tts?tl=ja&q=$(echo $@ | sed 's/[ ]/\+/g')" &>/dev/null; }
 
 function push () { git add . ; git add . -u; git status; git commit -m "$*"; git push; }
 
@@ -156,3 +159,6 @@ function multiple_desks {
 		echo -e "${RED}Numero incorrecto de escritorios:${NC} $x x $y.";
 	fi
 }
+
+# Para asustarme
+# notify-send "Faltan $[(`date +%s -d 20140407`-`date +%s`)/86400] días para el Final de InteCo." -i appointment-missed;
