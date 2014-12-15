@@ -17,7 +17,7 @@ alias ultimo_reboot='last -x | grep reboot'
 alias ultimo_shutdown='last -x | grep shutdown'
 
 alias bash_aliases='gedit ~/Repositorios/mis_scripts/bash/.bash_aliases';
-alias actualizar_wallpapers='python ~/Repositorios/mis_scripts/python/wallpaper_changer/wallpaper_changer.py "/media/Cristian/Copy/Stuff/Wallpapers" "180.0" "0.0"; sudo mv background-1.xml /usr/share/backgrounds/contest/precise.xml';
+alias actualizar_wallpapers='python ~/Repositorios/mis_scripts/python/wallpaper_changer/wallpaper_changer.py "/media/Cristian/Copy/Stuff/Wallpapers" "70.0" "1.0"; sudo mv background-1.xml /usr/share/backgrounds/contest/trusty.xml';
 
 alias ..='cd ..';
 alias ...='.. && ..';
@@ -28,6 +28,8 @@ alias ll='ls -l';
 alias j='jobs -l'
 
 alias legado='cd ~/Dropbox/My\ Campaigns\ D\&D/El\ Legado/El\ Legado\ -\ shared/'
+
+alias myastyle='astyle --style=java --break-blocks=all --pad-oper --pad-header --unpad-paren --align-pointer=name --add-brackets --verbose --indent=spaces '
 
 # Count number of files, links and directories
 alias listar='for t in files links directories; do echo `find . -maxdepth 1 -type ${t:0:1} | wc -l` $t; done 2> /dev/null';
@@ -162,3 +164,6 @@ function multiple_desks {
 
 # Para asustarme
 # notify-send "Faltan $[(`date +%s -d 20140407`-`date +%s`)/86400] días para el Final de InteCo." -i appointment-missed;
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

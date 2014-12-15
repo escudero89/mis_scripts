@@ -33,7 +33,10 @@ function despertarse {
         extra=0;
     fi
     
-    tiempo_dormir=$(date --date "$dte $((45+$extra)) minutes" +"%H:%M");
+    # Tiempo en promedio que tardas en caer dormido [en min]
+    timeToGoToSleep=14;
+    
+    tiempo_dormir=$(date --date "$dte $(($timeToGoToSleep+$extra)) minutes" +"%H:%M");
 
     echo -e "# Probablemente estes durmiendo a las:" ${c[0]}$tiempo_dormir${c[5]}".";
 
